@@ -1,0 +1,30 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: woba
+  description: The woba organization
+  links:
+    - url: https://woba.com.br/
+      title: Website
+spec:
+  type: organization
+  profile:
+    displayName: WOBA
+    email: info@woba.com.br
+    picture: https://woba.com.br/images/logo.svg
+  children: [infrastructure]
+---
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: groups
+  description: A collection of all woba Groups
+spec:
+  targets:
+    - ./infrastructure-group.yaml
+    - ./boxoffice-group.yaml
+    - ./backstage-group.yaml
+    - ./team-a-group.yaml
+    - ./team-b-group.yaml
+    - ./team-c-group.yaml
+    - ./team-d-group.yaml
