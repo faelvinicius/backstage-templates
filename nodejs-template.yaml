@@ -50,7 +50,7 @@ spec:
       name: Fetch Skeleton + Template
       action: fetch:template
       input:
-        url: ./skeleton
+        url: https://github.com/BeerOrCoffee/archref-nodejs
         copyWithoutRender:
           - .github/workflows/*
         values:
