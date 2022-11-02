@@ -21,10 +21,4 @@ metadata:
   description: A collection of all woba Groups
 spec:
   targets:
-    - ./infrastructure-group.yaml
-    - ./boxoffice-group.yaml
-    - ./backstage-group.yaml
-    - ./team-a-group.yaml
-    - ./team-b-group.yaml
-    - ./team-c-group.yaml
-    - ./team-d-group.yaml
+    - ./groups.yaml
