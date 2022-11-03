@@ -9,6 +9,9 @@ metadata:
     github.com/project-slug: ${{values.destination.owner + "/" + values.destination.repo}}
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: website
+  type: api
   lifecycle: experimental
   owner: ${{values.owner | dump}}
+  definition: |
+    // Copyright 2015 gRPC authors.
+ 
